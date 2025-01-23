@@ -25,6 +25,11 @@ const greet = () => {
 
 greet();
 
+// Event listeners
 const cancelButton = document.getElementById('cancel');
 console.log(cancelButton);
+
+cancelButton.addEventListener('click', () => {
+  console.log('Button clicked');
+});
 
