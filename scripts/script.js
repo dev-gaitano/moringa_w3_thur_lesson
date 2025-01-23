@@ -24,3 +24,7 @@ const greet = () => {
 }
 
 greet();
+
+const cancelButton = document.getElementById('cancel');
+console.log(cancelButton);
+
