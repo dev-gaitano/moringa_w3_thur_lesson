@@ -17,3 +17,10 @@ function sayHello() {
 }
 
 sayHello();
+
+// Arrow functions
+const greet = () => {
+    console.log('=> Hello World!')
+}
+
+greet();
